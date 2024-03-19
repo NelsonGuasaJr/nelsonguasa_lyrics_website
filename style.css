@@ -1,0 +1,39 @@
+body {
+	font-family: 'Aria', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.audio-section,
+.lyrics-section {
+	text-align: center;
+	margin: 2em 0;
+}
+
+.lyrics-container {
+	text-align: justify;
+	max-width: 700px;
+	margin: auto;
+	background-color: #fff;
+	padding: 75px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	margin: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 500px;
+	height: 350px;
+	border-radius: 20px;
+}
